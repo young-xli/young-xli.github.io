@@ -1,5 +1,5 @@
 ---
-Stock Trading Sessions and Price Volatility Scaling
+title: Stock Trading Sessions and Price Volatility Scaling
 ---
 
 Trading Sessions
