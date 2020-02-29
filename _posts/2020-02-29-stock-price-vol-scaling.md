@@ -8,10 +8,14 @@ Trading Sessions
 For both NYSE and NASDAQ in US, normal trading hours is from 9:30 a.m. to 4 p.m., lasting 6.5 hours. Extended-hours (after-hours and pre-market) tradings practically accounts for about 3.5 hours: 
 
 <table>
-<tr> <th>Session <th>  <th> Time Period <th> Hours
-<tr> <td> Normal <td>  <td> 9:30 AM - 4:00 PM <td> 6.5
-<tr> <td rowspan=2> Extended-hours <td> After-hours <td> 4:00 PM - 6:00 PM <sup>[1]</sup> <td> 2
-<tr> <td> Pre-market <td> 8:00 AM - 9:30 AM <sup>[2]</sup> <td> 1.5
+<thead>
+<tr> <th>Session</th> <th></th>  <th> Time Period</th> <th> Hours </th> </tr>
+</thead>
+<tbody>
+<tr> <td> Normal </td> <td> </td> <td> 9:30 AM - 4:00 PM </td> <td> 6.5 </td></tr>
+<tr> <td rowspan=2> Extended-hours </td> <td> After-hours </td> <td> 4:00 PM - 6:00 PM <sup>[1]</sup> </td> <td> 2 </td></tr>
+<tr> <td> Pre-market </td> <td> 8:00 AM - 9:30 AM <sup>[2]</sup> </td> <td> 1.5 </td> </tr>
+</tbody>
 </table>
 
 <p style = "font-family:georgia,garamond,serif;font-size:11px;font-style:italic;"> <sup>[1]</sup> After-hours trading starts at 4 PM and ends at around 8 PM, but the amount of volume generally slows significantly by 6 PM ("After-Hours Trading". Investopedia).<br/>
