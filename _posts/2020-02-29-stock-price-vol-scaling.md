@@ -9,7 +9,7 @@ For both NYSE and NASDAQ in US, normal trading hours is from 9:30 a.m. to 4 p.m.
 
 <table>
 <thead>
-<tr> <th>Session</th>  <th> Time Period</th> <th> Hours </th> </tr>
+<tr> <th align="left">Session</th>  <th align="left"> Time Period</th> <th align="left"> Hours </th> </tr>
 </thead>
 <tbody>
 <tr> <td> Normal </td> <td> 9:30 AM - 4:00 PM </td> <td> 6.5 </td></tr>
