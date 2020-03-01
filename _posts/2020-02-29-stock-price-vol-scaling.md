@@ -56,12 +56,12 @@ Six stocks, two from top, middle and bottom SP500 index member section respectiv
 | bottom SP500 memebrs | HOG, GPS |
 | ETF | SPY |
 
-$$(V_{co} + V_{oc})$$ / $$V_{cc}$$ timeseries for the seven securities (top figure below). Except for a few spikes, this fraction varies about 1, averaging to 1.03: $$\frac{(V_{co} + V_{oc})}{V_{cc}} \approx 1$$. 
+$$(V_{co} + V_{oc})$$ / $$V_{cc}$$ timeseries for the seven securities is shown in the top figure below. Except for a few spikes, this fraction varies about 1, averaging to 1.03: $$\frac{(V_{co} + V_{oc})}{V_{cc}} \approx 1$$. 
 
 This is expected, as $$log(C_t/C_{t-1}) = log(O_t/C_{t-1}) + log(C_t/O_t)$$ and log-price increments ($$log(O_t) - log(C_{t-1})$$) and
 ($$log(C_t) - log(O_t)$$) can be considered approximately independent of each other based on Brownian motion theory.
 
-$$V_{co} / V_{oc}$$ time series (bottom figure below).The average level of this fraction is higher during 2011-2020 than during 2000-2010
+$$V_{co} / V_{oc}$$ timeseries is shoen in the bottom figure below. The average level of this fraction is higher during 2011-2020 than during 2000-2010
 
 <table>
 <thead>  
