@@ -34,7 +34,7 @@ Let's break the time interval between two consecutive market closes down to the 
 Variances of Log-Price Increments
 ---------------------------------
 
-Denote by $C_{t-1}$, $O_t$ acd $C_t$ respectively the close price at (t-1), open price at t and close price at t. We then calculate the following variances: <br/>
+Denote by $$C_{t-1}$$, $$O_t$$ acd $$C_t$$ respectively the close price at (t-1), open price at t and close price at t. We then calculate the following variances: <br/>
 $$
 \begin{equation}
 \begin{aligned}
@@ -57,17 +57,21 @@ Six stocks, two from top, middle and bottom SP500 index member section respectiv
 | ETF | SPY |
 
 <ul>
-<li> $(V_{co} + V_{oc})$ / $V_{cc}$ timeseries for the seven securities (top figure). Except for a few spikes, this fraction varies about 1, averaging to 1.03: $\frac{(V_{co} + V_{oc})}{V_{cc}} \approx 1$. 
+<li> $$(V_{co} + V_{oc})$$ / $$V_{cc}$$ timeseries for the seven securities (top figure). Except for a few spikes, this fraction varies about 1, averaging to 1.03: $$\frac{(V_{co} + V_{oc})}{V_{cc}} \approx 1$$. 
 
-This is expected, as $log(C_t/C_{t-1}) = log(O_t/C_{t-1}) + log(C_t/O_t)$ and log-price increments ($log(O_t) - log(C_{t-1})$) and
-($log(C_t) - log(O_t)$) can be considered approximately independent of each other based on Brownian motion theory.
+This is expected, as $$log(C_t/C_{t-1}) = log(O_t/C_{t-1}) + log(C_t/O_t)$$ and log-price increments ($$log(O_t) - log(C_{t-1})$$) and
+($$log(C_t) - log(O_t)$$) can be considered approximately independent of each other based on Brownian motion theory.
 
-<li> $V_{co} / V_{oc}$ time series (bottom figure).The average level of this fraction is higher during 2011-2020 than during 2000-2010
+<li> $$V_{co} / V_{oc}$$ time series (bottom figure).The average level of this fraction is higher during 2011-2020 than during 2000-2010
 
 <table>
-<tr> <th>Period  <th> $\overline{V_{co} / V_{oc}}$
-<tr> <td> 2000-2010 <td> 0.4
-<tr> <td> 2011-2020 <td> 0.6
+<thead>  
+  <tr> <th>Period  <th> $$\overline{V_{co} / V_{oc}}$$ </tr>
+</thead>
+<tbody>  
+  <tr> <td> 2000-2010 <td> 0.4 </tr>
+  <tr> <td> 2011-2020 <td> 0.6 </tr>
+</tbody>  
 </table>
 </ul>
 
