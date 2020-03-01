@@ -56,12 +56,12 @@ Six stocks, two from top, middle and bottom SP500 index member section respectiv
 | bottom SP500 memebrs | HOG, GPS |
 | ETF | SPY |
 
-$$(V_{co} + V_{oc})$$ / $$V_{cc}$$ timeseries for the seven securities (top figure). Except for a few spikes, this fraction varies about 1, averaging to 1.03: $$\frac{(V_{co} + V_{oc})}{V_{cc}} \approx 1$$. 
+$$(V_{co} + V_{oc})$$ / $$V_{cc}$$ timeseries for the seven securities (top figure below). Except for a few spikes, this fraction varies about 1, averaging to 1.03: $$\frac{(V_{co} + V_{oc})}{V_{cc}} \approx 1$$. 
 
 This is expected, as $$log(C_t/C_{t-1}) = log(O_t/C_{t-1}) + log(C_t/O_t)$$ and log-price increments ($$log(O_t) - log(C_{t-1})$$) and
 ($$log(C_t) - log(O_t)$$) can be considered approximately independent of each other based on Brownian motion theory.
 
-$$V_{co} / V_{oc}$$ time series (bottom figure).The average level of this fraction is higher during 2011-2020 than during 2000-2010
+$$V_{co} / V_{oc}$$ time series (bottom figure below).The average level of this fraction is higher during 2011-2020 than during 2000-2010
 
 <table>
 <thead>  
@@ -79,7 +79,7 @@ $$V_{co} / V_{oc}$$ time series (bottom figure).The average level of this fracti
 Scaling of Price Volatility
 ---------------------------
 
-Using recent period 2011-2020 $V_{co} / V_{oc}$ value of 0.6, we can express daily volatility in terms of normal-session volatility: <br/>
+Using recent period 2011-2020 $$V_{co} / V_{oc}$$ value of 0.6, we can express daily volatility in terms of normal-session volatility: <br/>
 $$
 \begin{equation}
 V_{cc} = V_{co} + V_{oc} = 1.6 V_{oc}
@@ -87,7 +87,7 @@ V_{cc} = V_{co} + V_{oc} = 1.6 V_{oc}
 \tag{2}
 \end{equation}
 $$
-Considering the normal session lasts for 6.5 hrs, we can say from price volatility perspective that one day = 1.6 * 6.5 = 10.4 normal-session hours, and therefore <br/>
+Considering the normal session lasts for 6.5 hrs, we can say from price volatility perspective that one day = 1.6 * 6.5 = 10.4 normal-session hours. Therefore we derive the following volatility-equivalent days conversion factors:<br/>
 
 <table>
   <tr> <th align="left">Calendar Hour</th>  <th align="left"> Volatility-Equivalent Days </th> </tr>
@@ -95,7 +95,7 @@ Considering the normal session lasts for 6.5 hrs, we can say from price volatili
   <tr> <td> 1 extended-hours trading hour </td>  <td> (0.6 * 6.5/3.5) * 0.096 = 0.107 days </td> </tr>
 </table>
 
-Using the above conversion, we can calculate price volatility for a given trading period using realized 30-day volatility, say $\sigma_d$ = 30\% annually = 30\%/$\sqrt{252}$ daily = 1.9\% daily.
+Using the above conversion, we can calculate price volatility for a given trading period using realized 30-day volatility, say $$\sigma_d$$ = 30% annually = 30%/$$\sqrt{252}$$ daily = 1.9% daily.
 
 <table>
   <tr> <th>Trading Hours</th>  <th> Volatility Using Volatility-Equivalent Time</th> <th> Volatility Using Calendar Time </th></tr>
