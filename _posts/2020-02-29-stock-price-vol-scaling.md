@@ -50,7 +50,7 @@ $$
 Six stocks, two from top, middle and bottom SP500 index member section respectively, and SP500 index ETF (SPY) are picked for variance decomposition analysis. Date range is from 2000-01-01 to 2020-02-21.
 
 | **Section** | **Tickers** |
-|-------------|-------------|
+|:------------|:------------|
 | top SP500 members | AAPL, MSFT |
 | middle SP500 members | MCHP, KR |
 | bottom SP500 memebrs | HOG, GPS |
@@ -65,7 +65,7 @@ $$V_{co} / V_{oc}$$ time series (bottom figure).The average level of this fracti
 
 <table>
 <thead>  
-  <tr> <th>Period</th>  <th> $$\overline{V_{co} / V_{oc}}$$ </th> </tr>
+  <tr> <th align="left">Period</th>  <th align="left"> $$\overline{V_{co} / V_{oc}}$$ </th> </tr>
 </thead>
 <tbody>  
   <tr> <td> 2000-2010 </td> <td> 0.4 </td> </tr>
@@ -90,7 +90,7 @@ $$
 Considering the normal session lasts for 6.5 hrs, we can say from price volatility perspective that one day = 1.6 * 6.5 = 10.4 normal-session hours, and therefore <br/>
 
 <table>
-  <tr> <th>Calendar Hour</th>  <th> Volatility-Equivalent Days </th> </tr>
+  <tr> <th align="left">Calendar Hour</th>  <th align="left"> Volatility-Equivalent Days </th> </tr>
   <tr> <td> 1 normal-session trading hour </td>  <td>  1/10.4 = 0.096 days </td> </tr>
   <tr> <td> 1 extended-hours trading hour </td>  <td> (0.6 * 6.5/3.5) * 0.096 = 0.107 days </td> </tr>
 </table>
