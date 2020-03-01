@@ -27,10 +27,9 @@ The 30-day volatility measure is defined as the annualized standard deviation of
 A question naturally arises: can I expect the same amount of price volatility if I trade in after-hours session, compared to the normal session?
 
 Let's break the time interval between two consecutive market closes down to the following two sessions:
-<ol>
-<li> (t-1) CLOSE --- t OPEN
-<li> t OPEN --- t CLOSE
-</ol>
+
+- (t-1) CLOSE --- t OPEN
+- t OPEN --- t CLOSE
 
 Variances of Log-Price Increments
 ---------------------------------
