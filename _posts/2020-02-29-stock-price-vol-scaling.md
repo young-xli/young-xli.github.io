@@ -56,24 +56,23 @@ Six stocks, two from top, middle and bottom SP500 index member section respectiv
 | bottom SP500 memebrs | HOG, GPS |
 | ETF | SPY |
 
-<ul>
-<li> $$(V_{co} + V_{oc})$$ / $$V_{cc}$$ timeseries for the seven securities (top figure). Except for a few spikes, this fraction varies about 1, averaging to 1.03: $$\frac{(V_{co} + V_{oc})}{V_{cc}} \approx 1$$. 
+$$(V_{co} + V_{oc})$$ / $$V_{cc}$$ timeseries for the seven securities (top figure). Except for a few spikes, this fraction varies about 1, averaging to 1.03: $$\frac{(V_{co} + V_{oc})}{V_{cc}} \approx 1$$. 
 
 This is expected, as $$log(C_t/C_{t-1}) = log(O_t/C_{t-1}) + log(C_t/O_t)$$ and log-price increments ($$log(O_t) - log(C_{t-1})$$) and
 ($$log(C_t) - log(O_t)$$) can be considered approximately independent of each other based on Brownian motion theory.
 
-<li> $$V_{co} / V_{oc}$$ time series (bottom figure).The average level of this fraction is higher during 2011-2020 than during 2000-2010
+$$V_{co} / V_{oc}$$ time series (bottom figure).The average level of this fraction is higher during 2011-2020 than during 2000-2010
 
 <table>
 <thead>  
-  <tr> <th>Period  <th> $$\overline{V_{co} / V_{oc}}$$ </tr>
+  <tr> <th>Period</th>  <th> $$\overline{V_{co} / V_{oc}}$$ </th> </tr>
 </thead>
 <tbody>  
-  <tr> <td> 2000-2010 <td> 0.4 </tr>
-  <tr> <td> 2011-2020 <td> 0.6 </tr>
+  <tr> <td> 2000-2010 </td> <td> 0.4 </td> </tr>
+  <tr> <td> 2011-2020 </td> <td> 0.6 </td> </tr>
 </tbody>  
 </table>
-</ul>
+
 
 ![](<../images/stock_vol_decom.png>)
 
@@ -91,17 +90,17 @@ $$
 Considering the normal session lasts for 6.5 hrs, we can say from price volatility perspective that one day = 1.6 * 6.5 = 10.4 normal-session hours, and therefore <br/>
 
 <table>
-<tr> <th>Calendar Hour  <th> Volatility-Equivalent Days
-<tr> <td> 1 normal-session trading hour  <td>  1/10.4 = 0.096 days
-<tr> <td> 1 extended-hours trading hour <td> (0.6 * 6.5/3.5) * 0.096 = 0.107 days 
+  <tr> <th>Calendar Hour</th>  <th> Volatility-Equivalent Days </th> </tr>
+  <tr> <td> 1 normal-session trading hour </td>  <td>  1/10.4 = 0.096 days </td> </tr>
+  <tr> <td> 1 extended-hours trading hour </td>  <td> (0.6 * 6.5/3.5) * 0.096 = 0.107 days </td> </tr>
 </table>
 
 Using the above conversion, we can calculate price volatility for a given trading period using realized 30-day volatility, say $\sigma_d$ = 30\% annually = 30\%/$\sqrt{252}$ daily = 1.9\% daily.
 
 <table>
-<tr> <th>Trading Hours  <th> Volatility Using Volatility-Equivalent Time<th> Volatility Using Calendar Time
-<tr> <td> 1 normal-session trading hours  <td> $\sigma_d * \sqrt{1 * 0.096} = 0.59\%$  <td> $\sigma_d * \sqrt{1/24} = 0.39\%$
-<tr> <td> 1 after-hours trading hours <td> $\sigma_d * \sqrt{1 * 0.107} = 0.62\%$  <td> $\sigma_d * \sqrt{1/24} = 0.39\%$
+  <tr> <th>Trading Hours</th>  <th> Volatility Using Volatility-Equivalent Time</th> <th> Volatility Using Calendar Time </th></tr>
+  <tr> <td> 1 normal-session trading hours </td>  <td> $$\sigma_d * \sqrt{1 * 0.096} = 0.59\%$$ </td> <td> $$\sigma_d * \sqrt{1/24} = 0.39\%$$ </td> </tr>
+  <tr> <td> 1 after-hours trading hours </td> <td> $$\sigma_d * \sqrt{1 * 0.107} = 0.62\%$$ </td> <td> $$\sigma_d * \sqrt{1/24} = 0.39\%$$ </td> </tr>
 </table>
 
 As shown above, volatilities calculated using calendar time are significantly lower than using volatility-equivalent time. Using the former can greatly underestimate the real price volatility in practice.
