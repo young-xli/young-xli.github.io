@@ -32,6 +32,7 @@ layout: default
     {% endfor %}
 {% endif %}
 <!-- Comments Form -->
+  <hr/>
   <form method="POST" action="{{ site.staticman_url }}">
     <input name="options[redirect]" type="hidden" value="https://example.com">
     <input name="options[slug]" type="hidden" value="{{ page.slug }}">
