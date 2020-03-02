@@ -20,3 +20,6 @@ defaults:
       layout:       post
 
 theme: jekyll-theme-cayman
+plugins:
+  - jekyll-seo-tag
+  
