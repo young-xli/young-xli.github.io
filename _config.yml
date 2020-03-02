@@ -20,6 +20,7 @@ defaults:
       layout:       post
 
 theme: jekyll-theme-cayman
+staticman_url: https://api.staticman.net/v3/entry/github/young-xli/young-xli.github.io/master/comments
 plugins:
   - jekyll-seo-tag
   
