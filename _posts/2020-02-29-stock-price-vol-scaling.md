@@ -1,5 +1,6 @@
 ---
 title: Stock Trading Sessions and Price Volatility Scaling
+tagline: volatility scaling stock trading price
 ---
 
 Trading Sessions
